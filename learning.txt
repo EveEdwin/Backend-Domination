@@ -1,0 +1,4 @@
+Asynchronus JS
+
+It is all about when we write a code and some block or the part of the code that will delay you know so to that part which will not haper the working of the rest of the code is code Asynchronus par. That code will run but in the background and that will be inserted as soon as the code get completed.
+

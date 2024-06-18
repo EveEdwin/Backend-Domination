@@ -1,7 +1,7 @@
 const fs = require("fs")
 
-fs.readdir("newfolder",{withFileTypes: true}, function(err,files){
+fs.rm("newfolder",{recursive: true}, function(err){
     if(err) console.log(err);
-    else console.log(files)
+    else console.log("deleted")
 
 });

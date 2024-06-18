@@ -1,7 +1,7 @@
 const fs = require("fs")
 
-fs.unlink("newfile.txt", function(err,data){
+fs.mkdir("newfolder", function(err){
     if(err) console.log(err);
-    else console.log("deleted")
+    else console.log("created")
 
 });

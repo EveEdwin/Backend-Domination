@@ -1,7 +1,7 @@
 const fs = require("fs")
 
-fs.mkdir("newfolder", function(err){
+fs.readdir("newfolder",{withFileTypes: true}, function(err,files){
     if(err) console.log(err);
-    else console.log("created")
+    else console.log(files)
 
 });

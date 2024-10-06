@@ -8,6 +8,12 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.send('<h1>Login Page</h1>');
 })
+
+
+app.get('/tweet', (req, res) => {
+    res.send('<h1>Tweeter Page</h1>');
+})
+
 app.listen(port, () => {
     console.log(`App listening on port ${port}!`);
 });
